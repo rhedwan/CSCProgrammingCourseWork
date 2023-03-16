@@ -5,7 +5,7 @@ int main(void)
     float weeklySales;
     weeklySales = 0.0;
 
-    for (unsigned i = 1; i <= 2; i++) // weekly
+    for (unsigned i = 1; i <= 5; i++) // weekly
     {
         printf("Day %u\n", i);
         float retailPrice, totalDailySales;

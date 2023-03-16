@@ -9,20 +9,20 @@ int main(void)
 
     // Generate random numbers within specific ranges and print them
     int randomNumber1 = 1 + (rand() % 6);
-    printf("%d\n", randomNumber1);
+    // printf("%d\n", randomNumber1);
 
     int randomNumber2 = 100 + (rand() % 901);
-    printf("%d\n", randomNumber2);
+    // printf("%d\n", randomNumber2);
 
     int randomNumber3 = 0 + (rand() % 19);
-    printf("%d\n", randomNumber3);
+    // printf("%d\n", randomNumber3);
 
     int randomNumber4 = 1000 + (rand() % 1223);
-    printf("%d\n", randomNumber4);
+    // printf("%d\n", randomNumber4);
 
     int randomNumber5 = -1 + (rand() % 3);
-    printf("%d\n", randomNumber5);
+    // printf("%d\n", randomNumber5);
 
     int randomNumber6 = -3 + (rand() % 15);
-    printf("%d\n", randomNumber6);
+    // printf("%d\n", randomNumber6);
 }
