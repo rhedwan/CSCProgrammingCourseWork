@@ -4,9 +4,10 @@
 
 int main(void)
 {
-    // unsigned int number1 = rand();
+    // Seed the random number generator with the current time
     srand(time(NULL));
 
+    // Generate random numbers within specific ranges and print them
     int randomNumber1 = 1 + (rand() % 6);
     printf("%d\n", randomNumber1);
 
