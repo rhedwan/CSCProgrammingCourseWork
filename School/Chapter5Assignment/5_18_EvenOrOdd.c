@@ -12,10 +12,13 @@ int main(void)
     scanf("%d", &number);
     if (isEven(number))
     {
-        printf("%d", 1);
+
+        printf("%d is Odd \n", number);
+        // printf("%d", 1);
     }
     else
     {
-        printf("%d", 0);
+        printf("%d is Even \n", number);
+        // printf("%d", 0);
     }
 }
