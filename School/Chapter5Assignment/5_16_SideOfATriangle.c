@@ -10,15 +10,8 @@ double calculate_area(double a, double b, double c)
 
 int is_valid_triangle(double a, double b, double c)
 {
-    if ((a == 0) && (b == 0) && (c == 0))
-    {
-        // check the triangle inequality
-        return (a + b > c) && (b + c > a) && (c + a > b);
-    }
-    else
-    {
-        return 0;
-    }
+
+    return (a != 0) && (b != 0) && (c != 0) && (a + b > c) && (b + c > a) && (c + a > b);
 }
 
 int main()
