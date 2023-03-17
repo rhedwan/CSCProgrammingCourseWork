@@ -6,7 +6,7 @@ int main(void)
 {
     unsigned int side1, side2;
     char character;
-    printf("Enter the length and breadth: ");
+    printf("Enter the (length, breadth, character): ");
     scanf("%u %u %c", &side1, &side2, &character);
 
     for (unsigned int i = 0; i < side1; i++)
