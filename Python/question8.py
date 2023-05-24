@@ -10,4 +10,4 @@ length = float(input("Enter your length (in centimeters): "))
 if length < 0:
     print("Invalid entry. Length must be non-negative.")
 else:
-    print(f"There are {length} centimeters in {length/2.54} inch")
+    print(f"There are {length} centimeters in {round(length/2.54, 2)} inch")

@@ -4,7 +4,6 @@ the temperature is in. Your program should convert the temperature to the other 
 The conversions are F = 5 C+ 32 and C = 59 (F- 32).
 """
 
-
 type = input("Enter Celsius (C) or Fahrenheit(F): ").lower()
 temperature = float(input("Enter your temperature value: "))
 if type == "c":
