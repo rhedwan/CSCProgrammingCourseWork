@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Exercises1_5 {
     public static void main(String[] arg){
         double num = (9.5 * 4.5) - (2.5 * 3);

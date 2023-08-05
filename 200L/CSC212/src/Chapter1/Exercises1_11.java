@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Exercises1_11 {
     public static void main(String[] args) {
         double totalSecondsInAYear = 365 * 24 * 3600;

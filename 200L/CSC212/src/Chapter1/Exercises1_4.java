@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Exercises1_4 {
     public static void main(String[] arg){
         System.out.println("a\ta^2\t\ta^3");

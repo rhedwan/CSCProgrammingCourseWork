@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Exercises1_12{
     public static void main(String[] arg){
         double miles = 24;

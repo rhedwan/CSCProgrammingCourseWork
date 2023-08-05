@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Exercises1_10{
     public static void main(String[] arg){
         double kilometers = 14;

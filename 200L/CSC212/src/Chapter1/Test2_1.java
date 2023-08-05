@@ -1,3 +1,5 @@
+package Chapter1;
+
 public class Test2_1 {
     public static void main(String[] args) {
          double i = 50.0;
